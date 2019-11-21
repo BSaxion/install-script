@@ -1,0 +1,11 @@
+commands:
+  N98\Magento\Command\Installer\InstallCommand:
+    installation:
+      defaults:
+        currency: EUR
+        timezone: Europe/Amsterdam
+        admin_username: admin
+        admin_firstname: John
+        admin_lastname: Doe
+        admin_password: Admin123
+        admin_email: info@patchman.co

@@ -1,0 +1,17 @@
+commands:
+  N98\Magento\Command\Installer\InstallCommand:
+    installation:
+      defaults:
+        currency: EUR
+        locale: en_US
+        timezone: Europe/Amsterdam
+        use-secure: 0
+        use-rewrites: 1
+        session-save: files
+        admin-user: admin
+        admin-firstname: Patch
+        admin-lastname: Man
+        admin-password: Admin123
+        backend-frontname: admin
+        admin-email: info@patchman.co
+        encryption_key:
